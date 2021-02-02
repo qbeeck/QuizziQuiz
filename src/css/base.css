@@ -1,0 +1,30 @@
+:root {
+  --background: #ECEBEB;
+  --font-color: #2F2F2F;
+  --border-color: #bebdbd;
+  --white-color: #ffffff;
+  --shadow: 0 0 1.8rem 0.1rem rgba(0,0,0,0.75);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--background);
+}
+
+@media screen and (max-width: 500px) {
+  html {
+    font-size: 55%
+  }
+}

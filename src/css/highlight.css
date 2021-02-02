@@ -1,0 +1,26 @@
+.highlight {
+  width: 20rem;
+  height: auto;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  box-shadow: var(--shadow);
+  background-color: var(--white-color);
+  
+}
+.highlight__text {
+  margin-top: 2rem;
+  font-size: 3rem;
+  color: var(--font-color);
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.list {
+  text-align: center;
+  list-style: none;
+  margin-bottom: 1rem;
+}
