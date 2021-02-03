@@ -1,6 +1,6 @@
 .highlight {
   width: 20rem;
-  height: auto;
+  height: 25rem;
   font-size: 2rem;
   display: flex;
   flex-direction: column;
@@ -10,6 +10,7 @@
   box-shadow: var(--shadow);
   background-color: var(--white-color);
   
+  
 }
 .highlight__text {
   margin-top: 2rem;
@@ -18,9 +19,13 @@
   font-weight: 600;
   margin-bottom: 1rem;
 }
-
-.list {
+.highlight__results {
+  width: 100%;
   text-align: center;
+  overflow: auto;
+}
+.list {
   list-style: none;
   margin-bottom: 1rem;
+  
 }

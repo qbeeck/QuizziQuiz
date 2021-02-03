@@ -18,7 +18,7 @@ const cssFiles = [
 const jsFiles = [
   "./src/js/game.js",
   "./src/js/end.js",
-  "./src/js/highscore.js",
+  "./src/js/highscore.js"
 ];
 
 function styles() {
