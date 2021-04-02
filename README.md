@@ -7,7 +7,7 @@
 <li>Realtime database from Firebase to save user score</li>
 </ul>
 <h1>
-  <a href="https://walletqbeeck.netlify.app">Live Demo</a>
+  <a href="https://quiziquiz.netlify.app/">Live Demo</a>
 </h1>
 <img src="/gif/gifcontent.gif" width="900px"></img>
 <p>To run project</p>
